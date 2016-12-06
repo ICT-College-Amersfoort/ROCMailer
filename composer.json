@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ROCMN\\ROCMailer": "src/ROCMN/ROCMailer"
+            "ROCMN\\ROCMailer\\": "src/ROCMN/ROCMailer"
         }
     }
 }
