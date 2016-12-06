@@ -1,0 +1,22 @@
+{
+    "name": "rocmn/roc-mailer",
+    "version": "0.1.0-dev",
+    "type": "library",
+    "description": "Simple mailer with a queue logic.",
+    "homepage": "https://github.com/ICT-College-Amersfoort/ROCMailer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Snijder",
+            "email": "dennis@snijder.io"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ROCMN\\ROCMailer": "src/ROCMN/ROCMailer"
+        }
+    }
+}
